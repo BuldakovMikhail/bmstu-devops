@@ -20,6 +20,6 @@ check_ssh_connection:
   tags:
     - default
   script:
-    - ssh -T <юзер ВМ1>@<ip адрес ВМ1> 
-    - ssh -v <юзер ВМ1>@<ip адрес ВМ1> 'ip a'
+    - ssh -T misha@192.168.10.10 
+    - ssh -v misha@192.168.10.10 'ip a'
 
