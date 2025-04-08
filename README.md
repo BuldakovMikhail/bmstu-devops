@@ -76,8 +76,12 @@ sudo reboot
 ```
 
 ```bash
-sudo chmod 440 /etc/resolv.conf
+rm /etc/resolv.conf
+vi /etc/resolv.conf
 ```
+
+
+
 
 https://stackoverflow.com/questions/19432026/how-do-i-edit-resolv-conf
 
